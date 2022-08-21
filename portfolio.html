@@ -4,24 +4,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+   
     <link rel="stylesheet" href="/css/styles.css">
 </head>
-<body>
-    <header>
-        <nav>
-           <a href="">WebStudio</a>
-           <ul>
-               <li><a href="">Студія</a></li>
-               <li><a href="">Портфоліо</a></li>
-               <li><a href="">Контакти</a></li>
+<body class="page">
+    <header class="header">
+        <nav class="main-nav">
+            <a class="header-logo link" href="#">Web<span class="header-logo-text">Studio</span></a>
+            <ul class="header-list list">
+                <li class="header-list-item">
+                    <a class="header-link link" href="index.html">Студія</a>
+                </li>
+                <li class="header-list-item">
+                    <a class="header-link link active" href="/portfolio.html">Портфоліо</a>
+                </li>
+                <li class="header-list-item">
+                    <a class="header-link link" href="">Контакти</a>
+                </li>
             </ul>
-       </nav>
-           <ul>
-               <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-               <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
-           </ul>
-   </header>
+        </nav>
+        <ul class="contacts-list list">
+            <li><a class="contacts-link link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+            <li><a class="contacts-link link" href="tel:+380961111111">+38 096 111 11 11</a></li>
+        </ul>
+    </header>
    <main>
     <div>
         <ul class="button-list">
@@ -46,47 +58,47 @@
         <h1 hidden>Наші переваги</h1>
         <ul>
             <li>
-                <img src="images/portfolio/img.jpg" alt="відкритий сайт на ноутбуці">
+                <img src="images/portfolio/img.jpg" alt="відкритий сайт на ноутбуці" width="370">
                 <h2>Технокряк</h2>
                 <p>Веб-сайт</p>
             </li>
             <li>
-                <img src="images/portfolio/img-1.jpg" alt="баскетболісти">
+                <img src="images/portfolio/img-1.jpg" alt="баскетболісти" width="370">
                 <h2>Постер New Orlean vs Golden Star</h2>
                 <p>Дизайн</p>
             </li>
             <li>
-                <img src="images/portfolio/img-2.jpg" alt="лого рибного ресторану">
+                <img src="images/portfolio/img-2.jpg" alt="лого рибного ресторану" width="370">
                 <h2>Ресторан Seafood</h2>
                 <p>Додаток</p>
             </li>
             <li>
-                <img src="images/portfolio/img-3.jpg" alt="навушники">
+                <img src="images/portfolio/img-3.jpg" alt="навушники" width="370">
                 <h2>Проєкт Prime</h2>
                 <p>Маркетинг</p>
             </li>
             <li>
-                <img src="images/portfolio/img-4.jpg" alt="коробки">
+                <img src="images/portfolio/img-4.jpg" alt="коробки" width="370">
                 <h2>Проєкт Boxes</h2>
                 <p>Додаток</p>
             </li>
             <li>
-                <img src="images/portfolio/img-5.jpg" alt="відкритий сайт на моніторі">
+                <img src="images/portfolio/img-5.jpg" alt="відкритий сайт на моніторі" width="370">
                 <h2>Inspiration has no Borders</h2>
                 <p>Веб-сайт</p>
             </li>
             <li>
-                <img src="images/portfolio/img-6.jpg" alt="відкритий журнал">
+                <img src="images/portfolio/img-6.jpg" alt="відкритий журнал" width="370">
                 <h2>Видання Limited Edition</h2>
                 <p>Дизайн</p>
             </li>
             <li>
-                <img src="images/portfolio/img-7.jpg" alt="лейбл">
+                <img src="images/portfolio/img-7.jpg" alt="лейбл" width="370">
                 <h2>Проєкт LAB</h2>
                 <p>Маркетинг</p>
             </li>
             <li>
-                <img src="images/portfolio/img-8.jpg" alt="додаток для бізнесу">
+                <img src="images/portfolio/img-8.jpg" alt="додаток для бізнесу" width="370">
                 <h2>Growing Business</h2>
                 <p>Додаток</p>
             </li>
@@ -94,13 +106,13 @@
     </section>
    </main>
 
-    <footer>
-        <a href="">WebStudio</a>
-        <address>
-            <ul>
-                <li><a href="https://goo.gl/maps/7g64sPSE6rP9VSUu8" target="_blank" rel="noopener noreferrer">м. Київ, бульвар Лесі Українки, 26</a></li>
-                <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+   <footer class="footer">
+        <a class="footer-logo link" href="#">Web<span class="footer-logo-text">Studio</span></a>
+        <address class="footer-address">
+            <ul class="footer-address-lis list">
+                <li class="footer-address-item"><a class="link" href="https://goo.gl/maps/7g64sPSE6rP9VSUu8" target="_blank" rel="noopener noreferrer">м. Київ, бульвар Лесі Українки, 26</a></li>
+                <li class="footer-contacts-item"><a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                <li class="footer-contacts-item"><a class="link" href="tel:+380961111111">+38 096 111 11 11</a></li>
             </ul>
         </address>
     </footer>
