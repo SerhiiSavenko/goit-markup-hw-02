@@ -1,6 +1,6 @@
 :root {
     /*Fonts*/
-    --main-font: "Roboto" "Raleway" , sans-serif;
+    --main-font: "Roboto", sans-serif;
     --secondary-font: "Raleway", sans-serif;
 
 
@@ -31,13 +31,14 @@
 
 /*header*/
 
-.header .link {
+.header-link,
+.contacts-link {
     font-weight: 500;
     font-size: 14px;
-    line-height: calc(16/12);
+    line-height:calc(16/14);
     letter-spacing: 0.02em;
-    color: var(--main-txt-cl);
 }
+
 .header-link.active {
 color: var(--basic-blue);
 }
@@ -46,6 +47,9 @@ color: var(--basic-blue);
 .header .link:focus {
     color:var(--basic-blue);
 }
+.contacts-link {
+    color: var(--contacts-cl);
+    }
 .header-logo,
 .footer-logo {
     font-family:var(--secondary-font);
@@ -60,16 +64,8 @@ color: var(--basic-blue);
 .footer-logo-text {
     color: var(--main-txt-cl);
 }
-.header-link,
-.contacts-link {
-    font-weight: 500;
-    font-size: 14px;
-    line-height:calc(16/14);
-    letter-spacing: 0.02em;
-}
-.contacts-link {
-color: var(--contacts-cl);
-}
+
+
 /*main*/
 .main-title{
     font-weight: 900;
@@ -135,14 +131,17 @@ color: var(--contacts-cl);
 /*footer*/
 .footer-address-item,
 .footer-contacts-item {
-    font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: calc(24/14);
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
     background-color: #2F303A;
 }
+.footer-address {
+    font-style: normal;
+    font-weight: 400;
+}
+
 .footer-address-item {
     color: var(--light-txt-cl);
 }
